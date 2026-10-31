@@ -17,7 +17,7 @@ The hosted prototype uses prepared fictional examples and keyword search for imp
 | [`app/`](app/README.md) | Web interface, Streamlit app, sample conversations, and a mock Reactor server |
 | [`pipeline/`](pipeline/README.md) | Retrieval and answer pipeline, official Reactor client, experiments, and tests |
 | [`predictions.jsonl`](predictions.jsonl) | Submitted predictions: one answer, abstention flag, and source citations per question |
-| [`idea/slides.pptx`](idea/slides.pptx) | Presentation slides |
+| [`idea/deck.pdf`](idea/deck.pdf) | Presentation slides |
 
 ## Final submission
 
