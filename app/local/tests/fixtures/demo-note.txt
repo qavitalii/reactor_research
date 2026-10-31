@@ -1,0 +1,3 @@
+Synthetic note for checking imports.
+Project Lighthouse: the team meeting is on 6 November.
+Location: the Pine meeting room.

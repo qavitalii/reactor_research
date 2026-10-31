@@ -1,0 +1,9 @@
+{
+  "name": "recall",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix app/local run dev",
+    "test": "npm --prefix app/local test && npm --prefix app/local run test:python",
+    "test:live": "npm --prefix app/local run test:live"
+  }
+}

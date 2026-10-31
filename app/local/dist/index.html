@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fbfcfa">
+  <meta name="description" content="Recall — memory for your conversations. Search your files and get answers with exact source quotes.">
+  <title>Recall — your conversations</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css?v=semantic-1">
+  <script src="./app.js?v=citations-1" type="module"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to workspace</a>
+  <div class="app-shell">
+    <button class="menu-backdrop" data-action="close-menu" aria-label="Close navigation" tabindex="-1"></button>
+    <aside class="sidebar glass" id="sidebar" aria-label="Main navigation"></aside>
+    <div class="workspace">
+      <header class="topbar" id="topbar"></header>
+      <main id="main" tabindex="-1"></main>
+      <footer class="app-footer"><span><i class="status-dot"></i> Local files · local AI</span><span>Recall · Dealer Handshake</span></footer>
+    </div>
+  </div>
+  <dialog id="source-dialog" class="source-dialog glass" aria-labelledby="source-title"></dialog>
+  <dialog id="modal" class="modal glass" aria-labelledby="modal-title"></dialog>
+  <div id="toast" class="toast glass" role="status" aria-live="polite"></div>
+  <div id="announcer" class="sr-only" role="status" aria-live="polite"></div>
+</body>
+</html>

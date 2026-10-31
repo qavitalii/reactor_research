@@ -1,4 +1,6 @@
-# Ask your conversations (demo app)
+# Reactor application
+
+For the current local Ollama interface, see [Local Recall](local/README.md). Run it from the repository root with `npm run dev`. The instructions below apply to the Reactor-backed application.
 
 A one-page web app: add chat histories, prepare a search index, ask questions, get answers with sources.
 Answers come only from Reactor, using the few excerpts our pipeline retrieves (BM25 + local embeddings + local reranker).

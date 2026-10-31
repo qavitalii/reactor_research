@@ -1,0 +1,12 @@
+{
+  "name": "recall-local",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "sh run-local.sh",
+    "test": "node --test tests/*.test.mjs",
+    "test:python": ".venv/bin/python -m unittest discover -s tests -p 'test_*.py'",
+    "test:live": ".venv/bin/python tests/eval_followups.py && .venv/bin/python tests/eval_semantic.py && .venv/bin/python tests/eval_citations.py"
+  }
+}

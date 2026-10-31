@@ -1,0 +1,5 @@
+.DS_Store
+.sites-local/
+.openai/
+*.tar.gz
+node_modules/
