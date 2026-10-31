@@ -4,6 +4,12 @@
 
 Built by **Dealer Handshake** for the Reactive AI Memory Retrieval Challenge, START Warsaw × Poland Tech Week, October 30–31, 2026.
 
+## Demo
+
+[Open the Recall demo](https://d7evc6l18pol2.cloudfront.net/#ask)
+
+The hosted prototype uses prepared fictional examples and keyword search for imported files. Live Reactor answering is available through the backend application described below.
+
 ## Repository
 
 | Path | Contents |
@@ -17,7 +23,7 @@ Built by **Dealer Handshake** for the Reactive AI Memory Retrieval Challenge, ST
 
 The submitted file contains **146 predictions: 131 answers and 15 abstentions**. It includes a wider-retrieval rerun of 15 questions flagged during an audit of the raw histories. These are submission counts, not an accuracy score.
 
-The [final-run report](pipeline/experiments/final-run/RESULT.md) describes the configuration, timing, rerun, and merge rules. Raw Reactor replies are included alongside the report. The presentation and predictions match the final research snapshot from October 31, 2026.
+The [final-run report](pipeline/experiments/final-run/RESULT.md) describes the configuration, timing, rerun, and merge rules. Raw Reactor replies are included alongside the report. Predictions are preserved from the final research snapshot of October 31, 2026; the presentation has been corrected to reflect that run and distinguish development results from the unscored test submission.
 
 ## Run the web app
 
