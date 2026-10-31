@@ -1,0 +1,16 @@
+[23:10:57] starting instr2 arm
+1/7: q_bdcc36b14f9a answered
+2/7: q_d9312adb22a4 abstained
+3/7: q_2605c5385371 answered
+4/7: q_74e7322b9eee answered
+5/7: q_38578a6586f4 answered
+6/7: q_f2b1b7683115 answered
+7/7: q_13edb4244415 answered
+{
+  "complete": true,
+  "completed_questions": 7,
+  "requested_questions": 7,
+  "new_answers": 7,
+  "predictions_written": true
+}
+[23:17:57] instr2 finished

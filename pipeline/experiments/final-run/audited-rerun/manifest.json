@@ -1,0 +1,18 @@
+{
+  "requests_sha256": "7b6bd6c81859a6b680f089aba68c4afbc842f7d4f081962773aebdcda5a8214b",
+  "instructions_sha256": "d5712f4d46abd35dedc575e3191f522b8b7357cd47fd7158de08445585f7ecb7",
+  "max_chars": 32000,
+  "base_url": "https://t04.api.reactor-hackathon.rxai.dev",
+  "agent_id": "agt_284de70db1909e11",
+  "retry_abstain": false,
+  "history_per_question": true,
+  "runtime_sha256": {
+    "memchal/runner.py": "c2be22bf5de7dfb78b442ae1db3273f8dd908def89fa36cfae5652e73d66e9f7",
+    "memchal/hints.py": "0f76446206dec3545e77e5bacaae0efc1768cca61c9322f9f0b38e4cb0387ef5",
+    "memchal/audit.py": "ec7eb8fbc01c629b8455d85e2662549c9b37a1c129e3ac00eea3fba69075a187",
+    "memchal/validate.py": "0365aed8a3f3a20b7a7432558bc239abe76d0eb6e4b5c543dd9e92f3ee3c820c",
+    "reactor/client.py": "99cd636b269736bfb0e7bcf0d1f1fbe7b47613753a1f9cc342aa3d0912d8a9a0",
+    "reactor/predictions.py": "e19fb585aaafbbd7f5311d805dea49a7251ebcb764ca72091cf9d1201e17d9cb",
+    "memchal/lease.py": "60dae43ef2f0eb2e0b0836dec5278fd7529bb82179f31f8d77de27f0e6a50fc3"
+  }
+}

@@ -1,0 +1,25 @@
+1/15: q_a13386c9d560 abstained
+2/15: q_607d3cf5b4f1 abstained
+3/15: q_b3e5afe916c8 abstained
+4/15: q_eefdc20af97b answered
+q_8a621b50dc72: timeout; retrying in 15 s (1)
+5/15: q_8a621b50dc72 answered
+6/15: q_b5232f0c896b abstained
+7/15: q_47e3f2749c07 answered
+8/15: q_0f66a8b016b8 abstained
+9/15: q_8b4f1ff8ce11 answered
+10/15: q_22ab86c83e4c abstained
+11/15: q_a54f3880de36 answered
+12/15: q_d52f60bba453 abstained
+13/15: q_6d1f42a4c0a8 answered
+q_eb3a2b633378: answer not in required form; asking once more
+14/15: q_eb3a2b633378 answered
+15/15: q_ffc9e6cb19b2 answered
+{
+  "complete": true,
+  "completed_questions": 15,
+  "requested_questions": 15,
+  "new_answers": 15,
+  "predictions_written": true
+}
+[09:30:01] rerun finished

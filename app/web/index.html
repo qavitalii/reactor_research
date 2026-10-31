@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#e9efed">
+  <meta name="description" content="Ask your conversations: find what was said in months of chats and get an answer you can check.">
+  <title>Ask your conversations</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <div class="ambient" aria-hidden="true"><div class="orb orb-mint"></div><div class="orb orb-peach"></div><div class="orb orb-blue"></div><div class="horizon"></div></div>
+  <main class="page">
+    <header class="intro">
+      <h1>Ask your conversations</h1>
+      <p class="muted">Find what was said in months of chats, and get an answer you can check.</p>
+    </header>
+
+    <section class="step glass" id="step-add" aria-labelledby="h-add">
+      <h2 id="h-add"><span class="num">1</span>Add your conversations</h2>
+      <label class="drop" id="drop" for="file-input">
+        <input type="file" id="file-input" multiple accept=".jsonl,.json,.txt,.md">
+        <strong>Drop your files here, or click to choose</strong>
+        <small>A histories.jsonl file, or chat exports (.txt or .md)</small>
+      </label>
+      <div class="row">
+        <button type="button" class="button secondary" id="demo-btn">Try the demo conversations</button>
+      </div>
+      <p class="note ok" id="add-summary" hidden></p>
+      <p class="note bad" id="add-error" role="alert" hidden></p>
+    </section>
+
+    <section class="step glass" id="step-prepare" aria-labelledby="h-prepare">
+      <h2 id="h-prepare"><span class="num">2</span>Prepare</h2>
+      <p class="muted" id="prepare-hint">Add your conversations first.</p>
+      <div class="row">
+        <button type="button" class="button primary" id="prepare-btn" disabled>Prepare my conversations</button>
+        <span class="check" id="prepare-check" hidden aria-hidden="true">&#10003;</span>
+      </div>
+      <div class="bar" id="prepare-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" hidden><i></i></div>
+      <p class="note" id="prepare-msg" role="status" aria-live="polite" hidden></p>
+    </section>
+
+    <section class="step glass" id="step-ask" aria-labelledby="h-ask">
+      <h2 id="h-ask"><span class="num">3</span>Ask</h2>
+      <p class="muted" id="ask-hint">Prepare your conversations first.</p>
+      <form id="ask-form" class="ask-form" hidden>
+        <label for="question">Your question</label>
+        <textarea id="question" rows="2" placeholder="What is my cat's name?" required></textarea>
+        <div class="row">
+          <label for="as-of">As of</label>
+          <input type="date" id="as-of">
+          <small class="muted">Conversations after this day are ignored.</small>
+        </div>
+        <div class="row"><button type="submit" class="button primary" id="ask-btn">Ask</button></div>
+      </form>
+      <p class="note busy" id="ask-busy" role="status" hidden><i class="spinner" aria-hidden="true"></i><span></span></p>
+      <p class="note bad" id="ask-error" role="alert" hidden></p>
+      <div id="answer" aria-live="polite"></div>
+
+      <div class="batch" id="batch" hidden>
+        <h3>Or answer many questions at once</h3>
+        <label class="drop small" for="batch-input">
+          <input type="file" id="batch-input" accept=".jsonl">
+          <strong>Choose a questions.jsonl file</strong>
+        </label>
+        <p class="note busy" id="batch-busy" role="status" hidden><i class="spinner" aria-hidden="true"></i><span></span></p>
+        <div class="bar" id="batch-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" hidden><i></i></div>
+        <p class="note bad" id="batch-error" role="alert" hidden></p>
+        <div class="row"><a class="button primary" id="download" hidden download="predictions.jsonl">Download predictions.jsonl</a></div>
+        <div id="batch-results"></div>
+      </div>
+    </section>
+
+    <footer class="foot">Answers are produced by Reactor from the excerpts shown; nothing else is used.</footer>
+  </main>
+</body>
+</html>

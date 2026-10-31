@@ -1,0 +1,20 @@
+{
+  "questions": 146,
+  "histories": 15,
+  "complete_unique_questions": true,
+  "original_question_metadata": true,
+  "source_ownership_and_dates": true,
+  "unique_sources": true,
+  "max_accounted_chars": 14500,
+  "min_accounted_chars": 5176,
+  "source_count_distribution": {
+    "6": 77,
+    "12": 69
+  },
+  "exact_reactor_serialization_checked": true,
+  "answer_correctness_checked": false,
+  "max_message_chars": 17218,
+  "max_repair_message_chars": 17457,
+  "message_limit": 19500,
+  "reactor_histories_required": 15
+}

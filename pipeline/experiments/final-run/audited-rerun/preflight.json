@@ -1,0 +1,24 @@
+{
+  "questions": 15,
+  "histories": 9,
+  "complete_unique_questions": false,
+  "original_question_metadata": true,
+  "source_ownership_and_dates": true,
+  "unique_sources": true,
+  "max_accounted_chars": 26000,
+  "min_accounted_chars": 25918,
+  "source_count_distribution": {
+    "20": 2,
+    "22": 1,
+    "24": 9,
+    "25": 1,
+    "29": 1,
+    "32": 1
+  },
+  "exact_reactor_serialization_checked": true,
+  "answer_correctness_checked": false,
+  "max_message_chars": 28204,
+  "max_repair_message_chars": 28443,
+  "message_limit": 32000,
+  "reactor_histories_required": 9
+}

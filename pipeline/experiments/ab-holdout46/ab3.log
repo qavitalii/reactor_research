@@ -1,0 +1,70 @@
+[23:59:23] arm B start
+1/46: q_bdcc36b14f9a answered
+2/46: q_93793b73f628 answered
+3/46: q_7450a5779930 answered
+4/46: q_10c02f38da39 answered
+5/46: q_556aa10af6f2 answered
+6/46: q_8b9f6f095430 answered
+7/46: q_be340f396827 answered
+8/46: q_4610701847a8 answered
+q_d9312adb22a4: abstained; asking once more
+9/46: q_d9312adb22a4 abstained
+q_d4e525311257: abstained; asking once more
+10/46: q_d4e525311257 abstained
+11/46: q_2605c5385371 answered
+12/46: q_1412fb322de7 answered
+13/46: q_1176755b8d8f answered
+14/46: q_2e8bbcd7dd5b answered
+15/46: q_9bca261ee237 answered
+q_4f15e4084535: abstained; asking once more
+16/46: q_4f15e4084535 abstained
+17/46: q_fa101133a761 answered
+18/46: q_b946bd44124b answered
+19/46: q_ddb04113abeb answered
+20/46: q_9b663c439c29 answered
+q_8d2124e4f046: abstained; asking once more
+21/46: q_8d2124e4f046 answered
+22/46: q_74e7322b9eee answered
+23/46: q_ad6f52f2ee7c answered
+24/46: q_2f221b3f8695 answered
+25/46: q_40d00b4bd84e answered
+26/46: q_38578a6586f4 answered
+q_1b21e840129d: abstained; asking once more
+27/46: q_1b21e840129d abstained
+28/46: q_b2d2ebfb50a8 answered
+29/46: q_d98b85c055f3 answered
+q_c8b195e94bf9: abstained; asking once more
+30/46: q_c8b195e94bf9 abstained
+31/46: q_f2b1b7683115 answered
+32/46: q_c06f4e77bd64 answered
+33/46: q_960303d5a60f answered
+34/46: q_b6ea46d0a596 answered
+35/46: q_3bb9539547c9 answered
+36/46: q_f55b829aee94 answered
+37/46: q_8db06561e69f answered
+38/46: q_16eb282b5706 answered
+39/46: q_13edb4244415 answered
+40/46: q_ee6aa99ad8f7 answered
+41/46: q_639ecd160538 answered
+42/46: q_6793ef8be21f answered
+43/46: q_3315b71d4f79 answered
+44/46: q_74474275300c answered
+45/46: q_6f709e73f130 answered
+46/46: q_d15c898a4ed4 answered
+{
+  "complete": true,
+  "completed_questions": 46,
+  "requested_questions": 46,
+  "new_answers": 46,
+  "predictions_written": true
+}
+[01:02:51] arm B2 done
+15 disputed questions -> armA-subset.jsonl
+[01:02:51] arm A start (disputed subset)
+1/15: q_d9312adb22a4 abstained
+2/15: q_d4e525311257 abstained
+3/15: q_2605c5385371 answered
+4/15: q_1412fb322de7 answered
+5/15: q_2e8bbcd7dd5b answered
+6/15: q_9bca261ee237 abstained
+7/15: q_4f15e4084535 abstained

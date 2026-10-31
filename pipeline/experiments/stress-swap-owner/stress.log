@@ -1,0 +1,27 @@
+[01:22:03] stress B start
+q_ca68b5eb6755x: abstained; asking once more
+1/9: q_ca68b5eb6755x abstained
+q_492227c0b621x: abstained; asking once more
+2/9: q_492227c0b621x abstained
+q_b70b5927cab4x: abstained; asking once more
+3/9: q_b70b5927cab4x abstained
+q_6f9a76678555x: abstained; asking once more
+4/9: q_6f9a76678555x answered
+q_3277771a571bx: abstained; asking once more
+5/9: q_3277771a571bx abstained
+q_1162503287b3x: abstained; asking once more
+6/9: q_1162503287b3x abstained
+q_41e5ec6b8f48x: abstained; asking once more
+7/9: q_41e5ec6b8f48x abstained
+q_875f5f10462dx: abstained; asking once more
+8/9: q_875f5f10462dx abstained
+q_3968c5b939a7x: abstained; asking once more
+9/9: q_3968c5b939a7x abstained
+{
+  "complete": true,
+  "completed_questions": 9,
+  "requested_questions": 9,
+  "new_answers": 9,
+  "predictions_written": true
+}
+[01:42:51] stress finished

@@ -1,0 +1,7 @@
+{"question_id": "q_bdcc36b14f9a", "question_type": "single-session-user", "abstain": false, "answer": "Target", "aliases": [], "evidence": ["s_d6b02401758a"]}
+{"question_id": "q_d9312adb22a4", "question_type": "single-session-user", "abstain": true, "answer": "You did not mention this information. You mentioned staying in Japan, but not in Korea.", "aliases": [], "evidence": []}
+{"question_id": "q_2605c5385371", "question_type": "multi-session", "abstain": false, "answer": "15 hours for getting to the three destinations (or 30 hours for the round trip)", "aliases": [], "evidence": ["s_01e576fc2075", "s_2f17047ee854", "s_9ee87c504697"]}
+{"question_id": "q_74e7322b9eee", "question_type": "temporal-reasoning", "abstain": false, "answer": "6 days. 7 days (including the last day) is also acceptable.", "aliases": [], "evidence": ["s_7a9c58490292", "s_7b5730ee6e8b"]}
+{"question_id": "q_38578a6586f4", "question_type": "temporal-reasoning", "abstain": false, "answer": "12 days ago. 13 days (including the last day) is also acceptable.", "aliases": [], "evidence": ["s_edc920f42d2b"]}
+{"question_id": "q_f2b1b7683115", "question_type": "knowledge-update", "abstain": false, "answer": "four", "aliases": [], "evidence": ["s_a8e986078e66", "s_9d253e097900"]}
+{"question_id": "q_13edb4244415", "question_type": "single-session-assistant", "abstain": false, "answer": "4", "aliases": [], "evidence": ["s_7f5eaa8056a3"]}

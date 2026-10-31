@@ -1,0 +1,130 @@
+n	question_id	verdict	note
+1	q_40f751819121	correct	Pixel (latest named own cat; a newer cat adopted 09-08 is never named)
+2	q_392fdc44c911	correct	Toggl Track
+3	q_068d0a4b3f7b	correct	5 pieces
+4	q_a13386c9d560	wrong	false abstention, retrieval miss (Heden)
+5	q_b3a794e382da	correct	Fábrica Coffee Roasters
+6	q_62e927862f62	correct	Ana Ferreira
+7	q_607d3cf5b4f1	wrong	Estrela vs Graça, retrieval miss
+8	q_cd41ef1d48d1	correct	Bruno Almeida
+9	q_06ae4afa8961	correct	14 days
+10	q_b3e5afe916c8	wrong	false abstention, retrieval miss (Director of Clinical Services)
+11	q_6dd9e5e4fb97	correct	2 classes
+12	q_eefdc20af97b	wrong?	8 vs ~6 varieties
+13	q_4b078c0faedb	correct	Matilda 159 Domain
+14	q_82e48d120380	correct	Daniel
+15	q_7c7caecdcce6	correct	139 days
+16	q_b81292033d1e	correct	83 days
+17	q_1a6b4fa2ede3	correct	Priya Nair
+18	q_aa27ddd3b7c5	correct	abstain, no own dog
+19	q_9a91a69855b3	correct	71 days
+20	q_91ae9daa0edc	correct	37,500
+21	q_0d23d90f39ba	correct	43 days
+22	q_fc41aad935fc	correct	25 GB
+23	q_37f295f0b662	correct	pandas
+24	q_95c115fca37d	correct	14 days
+25	q_e165458f4cff	correct	9,000 shared (latest)
+26	q_7b0aefc8ba1b	correct	pilau
+27	q_7137ff01345b	correct	Visual Studio Code
+28	q_8a621b50dc72	wrong	dark green vs teal, reader error
+29	q_4e9c67823ad2	correct	Moulin de Versailles
+30	q_1969c49ff4e7	correct	La Catrina
+31	q_b5232f0c896b	wrong?	Camille; tutor unnamed, maybe unanswerable
+32	q_1ac0e01c9100	correct	104 days
+33	q_bcd6d210710b	correct	23,200 pesos
+34	q_31e7201b2c55	correct	6,200 pesos
+35	q_2ea50c2672ba	correct	Masa
+36	q_06b2f5975ae5	correct	10 days
+37	q_bb61022c7cfc	correct	8 kilos
+38	q_1fae05d78e0c	correct	465 kHz
+39	q_1a8be2824d48	correct	8 ohms
+40	q_ca7af42dbd6c	correct	6.3 V
+41	q_862f0a129d66	correct	180 ohms
+42	q_3664132a79f0	correct	abstain, only recommended/removed values
+43	q_a01c345cd645	correct	0.022 µF
+44	q_6434e8c4a3ae	correct	33k ohms (18k+15k)
+45	q_6e893bcca955	correct	47 µF
+46	q_6834eb0349a2	correct	2 tubes
+47	q_33b11e8a4d44	correct	250,000 ohms
+48	q_47e3f2749c07	wrong	0/abstain vs 3 orchids, retrieval miss
+49	q_074ae81650db	correct	40 laps
+50	q_43e6976bec02	correct	3 readings >130
+51	q_0f66a8b016b8	wrong	false abstention vs 40 years, retrieval miss
+52	q_4d36a6e5d796	correct	3 calls in August
+53	q_90f7c27a95f2	correct	two grandchildren
+54	q_355094c7f34a	correct	1 cup
+55	q_e509e8e931c1	correct	5 km
+56	q_c2e25b33ec30	correct	abstain, only others ate feijoada
+57	q_8b4f1ff8ce11	wrong?	abstain vs 1 book finished 04-12
+58	q_1fda88c230cc	correct	69 days
+59	q_9d2958737ab5	correct	72 days
+60	q_e6ffd9f64dac	correct	45 days
+61	q_6ab86da6d151	correct	abstain, only Camille bought trail shoes
+62	q_4f4389802423	correct	Scotiabank
+63	q_4d44a760b75b	correct	43 days
+64	q_22ab86c83e4c	wrong	79 days from Camille's check-up; should abstain
+65	q_d8597704a027	correct	5 days
+66	q_33cd29d8e252	correct	abstain, no starter/loaf dates for user
+67	q_976e9c69229f	correct	Manon
+68	q_ae313330ed3d	correct	73 days
+69	q_8e098a44c205	correct	Masters Swim Club
+70	q_962a82f81f3a	correct	abstain, physio unnamed/sister's
+71	q_bad53f86da03	correct	Coach Miriam
+72	q_f46f10460ac8	correct	Ferreira Immigration Law
+73	q_05c51b87253c	correct	100 days
+74	q_8e9be6f580d2	correct	Marrakech Market (latest)
+75	q_dcb32bcaff37	correct	Riverdale Park East
+76	q_bada40a29d8a	correct	21 days
+77	q_91ff2fbd8bd6	correct	77 days
+78	q_bc91651664c8	correct	BEVA 371
+79	q_6a3d4c6ff3c4	correct	21 = 14 cats + 9 dogs - 2 FIV
+80	q_4483117bcef2	correct	abstain, museum unnamed
+81	q_eeee9fea968c	correct	108 days
+82	q_1d7f43897caa	correct	Gazelle (replaced Bianchi 10-12)
+83	q_be699a99e8ae	correct	46 days
+84	q_2f121a243f4b	correct	9 books
+85	q_b7053d97740b	correct	Caffè Gilli
+86	q_a54f3880de36	wrong?	Rifugio San Francesco vs Arca, ambiguous
+87	q_d52f60bba453	wrong	false abstention vs 16, retrieval miss
+88	q_1b638b1afb30	correct	Kreuzberg (lease 07-18)
+89	q_25e9a4b961d7	correct	8 people
+90	q_c445bb1b8206	correct	Café Blau
+91	q_74c6d5125665	correct	Marta
+92	q_f14893711b1a	correct	September 16 (updated 07-10)
+93	q_7a0b603e6a97	correct	Skipper
+94	q_4efca781adeb	correct	14 days
+95	q_6d1f42a4c0a8	wrong	Amici vs Osteria Numero, hedged
+96	q_c69bf7b912e9	correct	Dr. Vogel
+97	q_562eb5155a9d	correct	51 days
+98	q_6819894f8375	correct	134 days
+99	q_47d195184991	correct	XO by XLN Audio
+100	q_e064d6de4ba0	correct	99 days
+101	q_96398554b4e0	correct	101 days
+102	q_c3323b671e67	correct	Sidechain Diaries
+103	q_e356369542da	correct	Shure SM58
+104	q_7f6339e4b699	correct	28 days
+105	q_da3b8ae767ff	correct	Beyerdynamic DT 770 Pro
+106	q_8933b400c72a	correct	Flat White
+107	q_9eceb818d18c	correct	Caro-Kann (recommended 05-12)
+108	q_cd53d3a105e4	correct?	65 kg = 40+14+11; the 40 is "this year", plausible
+109	q_6fa4f8620294	correct	Van Nelle Factory
+110	q_4ac3e8f02425	correct	RouteXL
+111	q_057d4ff49dcb	correct	The Goal
+112	q_dbd9da8ff9a6	correct	7 days
+113	q_24028b381273	correct	14 days
+114	q_077981c7eecc	correct	De Werkbij
+115	q_59e9b0aab70e	correct	Marloes Fotografie
+116	q_7040872842c8	correct	14 days
+117	q_4b0e37d9cd0c	correct	peach saison (05-21, last keg)
+118	q_5bf8400d0361	correct	35 days
+119	q_e3fb401aa669	correct	The Civil War: A Narrative (05-10)
+120	q_4b90388e1220	correct	Octane Coffee
+121	q_2eb1ff9b6496	correct	50 days
+122	q_b3b5d7c68d27	correct	Cloudland Canyon (06-10)
+123	q_f363e101e02b	correct	Peachtree Brew Supply
+124	q_a5599a726aef	correct?	73 = 35 + 38 (spring trips); 42 on 03-14 is pre-spring
+125	q_373a730f491d	correct	Big Green Egg (replaced Weber 06-20)
+126	q_2b8785c0664b	correct	Golden Dragon (05-14)
+127	q_eb3a2b633378	wrong?	6:00 a.m. vs 6:30 a.m. (06-24 explicit shift); 07-08 "I'll start at 6:00" is a one-off plan
+128	q_ffc9e6cb19b2	wrong	"Nell (previously Juniper)" vs Juniper (03-10, 03-14, 06-07; the other question names Juniper); hedged
+129	q_bb52fdaffb76	correct	Theo

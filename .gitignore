@@ -1,0 +1,8 @@
+__pycache__/
+.pytest_cache/
+.venv*/
+.cache/
+pipeline/runs/
+*.pyc
+.env
+.env.*

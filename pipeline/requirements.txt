@@ -1,0 +1,9 @@
+numpy==2.5.4
+scipy==1.18.1
+scikit-learn==1.9.1
+snowballstemmer==3.1.1
+flashrank==0.2.10
+onnxruntime==1.31.1
+fastembed==0.9.1
+pytest==9.2.0
+websockets==17.4
